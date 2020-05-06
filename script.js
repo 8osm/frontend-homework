@@ -117,6 +117,7 @@ class Counter extends HTMLElement {
             this.value = 0;
         }
     }
+    
     attributeChangedCallback(name, oldValue, newValue) {
             this.valueDisplay.innerText = newValue;
       }
